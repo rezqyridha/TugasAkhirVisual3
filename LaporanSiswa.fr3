@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.12.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45262,0104028819" ReportOptions.Description.Text="" ReportOptions.LastChange="45262,0132626505" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D80203546F7003500108446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="216" PaperHeight="279" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="22,67718" Left="0" Top="18,89765" Width="740,78788">
+      <TfrxMemoView Name="Memo1" Left="306,14193" Top="3,77953" Width="154,96073" Height="18,89765" ShowHint="False" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="LAPORAN DATA SISWA"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>
