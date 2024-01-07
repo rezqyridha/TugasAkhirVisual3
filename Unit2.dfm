@@ -1,9 +1,9 @@
-object Form2: TForm2
-  Left = 479
-  Top = 185
+object frmSiswa: TfrmSiswa
+  Left = 533
+  Top = 183
   Width = 779
   Height = 559
-  Caption = 'Form2'
+  Caption = 'FORM SISWA'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -284,8 +284,8 @@ object Form2: TForm2
       Width = 1000.000000000000000000
     end
     object Page1: TfrxReportPage
-      PaperWidth = 216.000000000000000000
-      PaperHeight = 279.000000000000000000
+      PaperWidth = 215.900000000000000000
+      PaperHeight = 279.400000000000000000
       PaperSize = 1
       LeftMargin = 10.000000000000000000
       RightMargin = 10.000000000000000000

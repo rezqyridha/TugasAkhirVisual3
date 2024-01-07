@@ -1,10 +1,10 @@
-object frmLogin: TfrmLogin
-  Left = 453
-  Top = 187
+object frmDaftar: TfrmDaftar
+  Left = 696
+  Top = 197
   Width = 379
-  Height = 338
-  Caption = 'LOGIN '
-  Color = clTeal
+  Height = 353
+  Caption = 'FORM DAFTAR'
+  Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -42,12 +42,25 @@ object frmLogin: TfrmLogin
   object lbl2: TLabel
     Left = 144
     Top = 48
-    Width = 58
+    Width = 73
     Height = 21
-    Caption = 'LOGIN'
+    Caption = 'DAFTAR'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Top = 208
+    Width = 47
+    Height = 19
+    Caption = 'LEVEL'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
     Font.Name = 'Times New Roman'
     Font.Style = []
     ParentFont = False
@@ -68,30 +81,29 @@ object frmLogin: TfrmLogin
   end
   object btnMasuk: TBitBtn
     Left = 72
-    Top = 240
+    Top = 264
     Width = 75
     Height = 25
-    Caption = 'MASUK'
+    Caption = 'DAFTAR'
     TabOrder = 2
     OnClick = btnMasukClick
   end
   object btnDaftar: TBitBtn
     Left = 200
-    Top = 240
+    Top = 264
     Width = 75
-    Height = 25
-    Caption = 'DAFTAR'
+    Height = 27
+    Caption = 'MASUK'
     TabOrder = 3
     OnClick = btnDaftarClick
   end
-  object chk1: TCheckBox
+  object edtlvl: TEdit
     Left = 176
-    Top = 200
+    Top = 208
     Width = 121
-    Height = 17
-    Caption = 'Tampilkan Password'
+    Height = 21
     TabOrder = 4
-    OnClick = chk1Click
+    Text = 'user'
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
@@ -109,6 +121,7 @@ object frmLogin: TfrmLogin
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from user')
     Params = <>

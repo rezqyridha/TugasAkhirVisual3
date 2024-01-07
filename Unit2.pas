@@ -9,7 +9,7 @@ uses
   frxClass, frxDBSet;
 
 type
-  TForm2 = class(TForm)
+  TfrmSiswa = class(TForm)
     lbl1: TLabel;
     lbl2: TLabel;
     Label1: TLabel;
@@ -40,7 +40,7 @@ type
   end;
 
 var
-  Form2: TForm2;
+  frmSiswa: TfrmSiswa;
 
 implementation
 
