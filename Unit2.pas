@@ -118,7 +118,7 @@ zqry1.SQL.Add('insert into siswa values("'+edtid.Text+'","'+edtnis.Text+'","'+ed
  zqry1.SQL.Clear;
  zqry1.SQL.Add('select * from siswa');
  zqry1.Open;
-ShowMessage('DATA BARHASIL DISIMPAN!');
+ShowMessage('DATA BERHASIL DISIMPAN!');
 end;
 end;
 

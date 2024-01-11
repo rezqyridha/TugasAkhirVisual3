@@ -16,12 +16,12 @@ uses
 
 begin
   Application.Initialize;
+  Application.CreateForm(TfrmLogin, frmLogin);
   Application.CreateForm(Tfrmpengeluaran, frmpengeluaran);
   Application.CreateForm(Tfrmpembayaran, frmpembayaran);
   Application.CreateForm(Tfrmthnajaran, frmthnajaran);
   Application.CreateForm(Tfrmkelas, frmkelas);
   Application.CreateForm(TfrmSiswa, frmSiswa);
-  Application.CreateForm(TfrmLogin, frmLogin);
   Application.CreateForm(TfrmAdm, frmAdm);
   Application.CreateForm(TfrmUser, frmUser);
   Application.CreateForm(TfrmDaftar, frmDaftar);

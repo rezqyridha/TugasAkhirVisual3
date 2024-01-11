@@ -94,9 +94,9 @@ object frmpembayaran: Tfrmpembayaran
   object Label2: TLabel
     Left = 464
     Top = 48
-    Width = 153
+    Width = 142
     Height = 16
-    Caption = 'STATUS PEMMBAYARAN'
+    Caption = 'STATUS PEMBAYARAN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -315,7 +315,7 @@ object frmpembayaran: Tfrmpembayaran
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45097.373740509300000000
-    ReportOptions.LastChange = 45261.684687395830000000
+    ReportOptions.LastChange = 45302.720184062500000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -349,8 +349,8 @@ object frmpembayaran: Tfrmpembayaran
         Top = 18.897650000000000000
         Width = 1511.812000000000000000
         object Memo13: TfrxMemoView
-          Left = 415.748300000000000000
-          Width = 283.464750000000000000
+          Left = 166.299320000000000000
+          Width = 347.716760000000000000
           Height = 41.574830000000000000
           ShowHint = False
           DisplayFormat.DecimalSeparator = '.'

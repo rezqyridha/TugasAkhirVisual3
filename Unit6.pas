@@ -93,7 +93,7 @@ zqry1.SQL.Add('insert into kelas values("'+e_1.Text+'","'+e_2.Text+'","'+e_3.Tex
  zqry1.SQL.Clear;
  zqry1.SQL.Add('select * from kelas');
  zqry1.Open;
-ShowMessage('DATA BARHASIL DISIMPAN!');
+ShowMessage('DATA BERHASIL DISIMPAN!');
 end;
 
 end;

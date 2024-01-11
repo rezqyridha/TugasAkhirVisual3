@@ -1,6 +1,6 @@
 object frmpengeluaran: Tfrmpengeluaran
-  Left = 480
-  Top = 288
+  Left = 258
+  Top = 169
   Width = 1044
   Height = 484
   Caption = 'FORM PENGELUARAN'
@@ -269,7 +269,7 @@ object frmpengeluaran: Tfrmpengeluaran
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45097.373740509300000000
-    ReportOptions.LastChange = 45261.684687395830000000
+    ReportOptions.LastChange = 45302.719745949070000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -303,8 +303,8 @@ object frmpengeluaran: Tfrmpengeluaran
         Top = 18.897650000000000000
         Width = 1511.812000000000000000
         object Memo13: TfrxMemoView
-          Left = 415.748300000000000000
-          Width = 283.464750000000000000
+          Left = 166.299320000000000000
+          Width = 359.055350000000000000
           Height = 41.574830000000000000
           ShowHint = False
           DisplayFormat.DecimalSeparator = '.'

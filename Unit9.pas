@@ -123,7 +123,7 @@ zqry1.SQL.Add('insert into pembayaran values("'+e_1.Text+'","'+e_2.Text+'","'+e_
  zqry1.SQL.Clear;
  zqry1.SQL.Add('select * from pembayaran');
  zqry1.Open;
-ShowMessage('DATA BARHASIL DISIMPAN!');
+ShowMessage('DATA BERHASIL DISIMPAN!');
 end;
 end;
 

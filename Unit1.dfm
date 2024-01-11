@@ -64,10 +64,11 @@ object frmLogin: TfrmLogin
     Top = 160
     Width = 121
     Height = 21
+    PasswordChar = '*'
     TabOrder = 1
   end
   object btnMasuk: TBitBtn
-    Left = 72
+    Left = 40
     Top = 240
     Width = 75
     Height = 25
@@ -76,7 +77,7 @@ object frmLogin: TfrmLogin
     OnClick = btnMasukClick
   end
   object btnDaftar: TBitBtn
-    Left = 200
+    Left = 136
     Top = 240
     Width = 75
     Height = 25
@@ -92,6 +93,15 @@ object frmLogin: TfrmLogin
     Caption = 'Tampilkan Password'
     TabOrder = 4
     OnClick = chk1Click
+  end
+  object btnKeluar: TButton
+    Left = 232
+    Top = 240
+    Width = 75
+    Height = 25
+    Caption = 'KELUAR'
+    TabOrder = 5
+    OnClick = btnKeluarClick
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP

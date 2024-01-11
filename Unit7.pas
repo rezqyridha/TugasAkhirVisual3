@@ -93,7 +93,7 @@ zqry1.SQL.Add('insert into tahun_ajaran values("'+e_1.Text+'","'+e_2.Text+'","'+
  zqry1.SQL.Clear;
  zqry1.SQL.Add('select * from tahun_ajaran');
  zqry1.Open;
-ShowMessage('DATA BARHASIL DISIMPAN!');
+ShowMessage('DATA BERHASIL DISIMPAN!');
 end;
 end;
 

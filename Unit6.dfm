@@ -223,7 +223,7 @@ object frmkelas: Tfrmkelas
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45097.373740509300000000
-    ReportOptions.LastChange = 45261.684687395830000000
+    ReportOptions.LastChange = 45302.720740659720000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -257,7 +257,7 @@ object frmkelas: Tfrmkelas
         Top = 18.897650000000000000
         Width = 1511.812000000000000000
         object Memo13: TfrxMemoView
-          Left = 415.748300000000000000
+          Left = -11.338590000000000000
           Width = 283.464750000000000000
           Height = 41.574830000000000000
           ShowHint = False

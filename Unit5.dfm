@@ -102,6 +102,7 @@ object frmDaftar: TfrmDaftar
     Top = 208
     Width = 121
     Height = 21
+    Enabled = False
     TabOrder = 4
     Text = 'user'
   end

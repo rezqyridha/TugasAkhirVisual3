@@ -19,9 +19,11 @@ type
     con1: TZConnection;
     zqry1: TZQuery;
     chk1: TCheckBox;
+    btnKeluar: TButton;
     procedure btnMasukClick(Sender: TObject);
     procedure btnDaftarClick(Sender: TObject);
     procedure chk1Click(Sender: TObject);
+    procedure btnKeluarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -67,7 +69,7 @@ begin
       if level = 'user' then
       begin
         // Pengguna berhasil login sebagai user
-        ShowMessage('Login berhasil!');
+        ShowMessage('Login user berhasil!');
         frmUser.Show;
       end else
     end
@@ -92,6 +94,14 @@ begin
 if chk1.Checked then
 edtpass.PasswordChar := #0 else
 edtpass.PasswordChar := '*'
+end;
+
+procedure TfrmLogin.btnKeluarClick(Sender: TObject);
+begin
+if MessageDlg('APAKAH ANDA YAKIN INGIN KELUAR?',mtWarning,[mbYes,mbNo],0)= mryes then
+   begin
+       Application.Terminate;
+   end;
 end;
 
 end.

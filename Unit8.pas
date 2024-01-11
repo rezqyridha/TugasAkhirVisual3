@@ -108,7 +108,7 @@ zqry1.SQL.Add('insert into pengeluaran values("'+e_1.Text+'","'+e_2.Text+'","'+e
  zqry1.SQL.Clear;
  zqry1.SQL.Add('select * from pengeluaran');
  zqry1.Open;
-ShowMessage('DATA BARHASIL DISIMPAN!');
+ShowMessage('DATA BERHASIL DISIMPAN!');
 end;
 end;
 

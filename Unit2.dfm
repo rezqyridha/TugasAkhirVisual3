@@ -1,6 +1,6 @@
 object frmSiswa: TfrmSiswa
-  Left = 704
-  Top = 196
+  Left = 469
+  Top = 185
   Width = 779
   Height = 559
   Caption = 'FORM SISWA'
